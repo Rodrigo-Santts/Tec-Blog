@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
-
+ /*  Formatação Geral */
 *{
     margin: 0;
     padding: 0;
@@ -9,4 +9,52 @@
 body{
     font-family:'Open Sans', sans-serif;
     color: #000;
+    width: 100%;
+    height: 100vh;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Header Principal */
+
+.header-top{
+    height: 200px;
+    text-align: center;
+    color: #fff;
+    background-color: #FFC400;
+    padding: 15px;
+}
+
+/* H1 Logo top */
+
+.logo-tec{
+    font-size:3em;
+    padding-top: 10px;
+}
+
+.logo-tec > span{
+    color: #000;
+}
+
+/* Menu de navegação */
+
+.li-nav{
+    display: inline-block;
+    margin-top: 35px;
+
+}
+
+ a > .li-nav{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+
+}
+
+a:hover > .li-nav{
+    background-color: #fff;
+    color: #FFC400;
 }
