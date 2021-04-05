@@ -1,1 +1,0 @@
-Projeto de um Blog, feito para passa o tempo. 
